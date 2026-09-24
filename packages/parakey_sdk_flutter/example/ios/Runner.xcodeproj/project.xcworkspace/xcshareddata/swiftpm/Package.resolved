@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "parakey-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/parakey-ab/parakey-sdk-ios.git",
+      "state" : {
+        "revision" : "df17b0ff88d38d964417b2361a29ef136585c52e",
+        "version" : "2.7.1"
+      }
+    }
+  ],
+  "version" : 2
+}
