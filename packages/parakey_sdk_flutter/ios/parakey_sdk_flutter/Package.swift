@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "FlutterFramework", path: "../FlutterFramework"),
-        .package(url: "https://github.com/parakey-ab/\(sdk).git", exact: "2.7.1"),
+        .package(url: "https://github.com/parakey-ab/\(sdk).git", exact: "2.22.2"),
     ],
     targets: [
         .target(

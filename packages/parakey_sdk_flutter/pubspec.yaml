@@ -1,6 +1,6 @@
 name: parakey_sdk_flutter
 description: "The Parakey SDK allows your application to unlock Parakey Devices"
-version: 1.0.0
+version: 1.1.0
 homepage: https://www.parakey.co
 repository: https://github.com/parakey-ab/parakey-sdk-flutter
 issue_tracker: https://github.com/parakey-ab/parakey-sdk-flutter/issues

@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/parakey-ab/parakey-sdk-ios.git",
       "state" : {
-        "revision" : "df17b0ff88d38d964417b2361a29ef136585c52e",
-        "version" : "2.7.1"
+        "revision" : "cc5779395d0780d80998f46c665d427e7f5c17ca",
+        "version" : "2.22.2"
       }
     }
   ],

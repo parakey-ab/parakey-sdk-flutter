@@ -14,7 +14,7 @@ dependencies:
     git:
       url: https://github.com/parakey-ab/parakey-sdk-flutter.git
       path: packages/parakey_sdk_flutter
-      ref: 1.0.0
+      ref: 1.1.0
 ```
 
 ## Documentation
@@ -72,9 +72,14 @@ allprojects {
 - Update your `android/app/build.gradle.kts` with:
 
 ```diff
-defaultConfig {
--   minSdk = flutter.minSdkVersion
-+   minSdk = 26
+android {
+-   compileSdk = flutter.compileSdkVersion
++   compileSdk = 37
+
+    defaultConfig {
+-       minSdk = flutter.minSdkVersion
++       minSdk = 26
+    }
 }
 ```
 

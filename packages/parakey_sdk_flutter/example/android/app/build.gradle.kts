@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "co.parakey.parakey_sdk_flutter_example"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37
     ndkVersion = flutter.ndkVersion
 
     compileOptions {

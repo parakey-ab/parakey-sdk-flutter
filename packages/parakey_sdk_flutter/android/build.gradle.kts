@@ -28,7 +28,7 @@ plugins {
 android {
     namespace = "co.parakey.parakey_sdk_flutter"
 
-    compileSdk = 36
+    compileSdk = 37
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -55,5 +55,5 @@ kotlin {
 dependencies {
     val useControlUnit = (project.findProperty("parakey.useControlUnit") as? String)?.toBoolean() ?: false
 
-    api("co.parakey:${if (useControlUnit) "sdk-control-unit" else "sdk"}:2.5.1")
+    api("co.parakey:${if (useControlUnit) "sdk-control-unit" else "sdk"}:2.13.8")
 }

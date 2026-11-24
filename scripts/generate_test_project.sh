@@ -19,7 +19,7 @@ text="$(cat <<'EOF'
     git:
       url: https://github.com/parakey-ab/parakey-sdk-flutter.git
       path: packages/parakey_sdk_flutter
-      ref: 1.0.0
+      ref: 1.1.0
 EOF
 )"
 echo_green "$text"
@@ -73,6 +73,10 @@ allprojects {
 EOF
 )"
 echo_green "$text"
+prompt_enter_to_continue
+
+echo "Set compileSdk in android in android/app/build.gradle.kts"
+echo_green 'compileSdk = 37'
 prompt_enter_to_continue
 
 echo "Set minSdk in defaultConfig in android/app/build.gradle.kts"
